@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "F0MWMPIto2M=",
+  "success": true,
+  "projectFilePath": "/home/zoyeras/programacion/TaskManager/TaskManager_backend/TaskManager_backend/TaskManager_backend.csproj",
+  "expectedPackageFiles": [
+    "/home/zoyeras/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "/home/zoyeras/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/zoyeras/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.3/microsoft.aspnetcore.app.ref.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
