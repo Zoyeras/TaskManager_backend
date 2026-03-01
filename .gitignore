@@ -1,0 +1,16 @@
+## Rider / JetBrains
+.idea/
+*.sln.DotSettings.user
+
+## .NET - Carpetas de compilación (MUY IMPORTANTE)
+bin/
+obj/
+
+## Archivos de Sistema
+.DS_Store
+Thumbs.db
+
+## User-specific files
+*.user
+*.userosscache
+*.sln.docstate
