@@ -1,3 +1,5 @@
+using System;
+
 namespace TaskManager_backend.Models;
 
 public class TaskItem
@@ -8,8 +10,12 @@ public class TaskItem
     public string Status { get; set; } = "Pendiente";
     public required string Priority { get; set; }
     public DateTime? DueDate { get; set; }
-    
-    // Relacion con el usuario
+
+    // Nuevos campos de auditoría
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? UpdatedAt { get; set; }
+
+    // Relación con el usuario
     public int UserId { get; set; }
     public User User { get; set; } = null!;
 }

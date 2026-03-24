@@ -1,16 +1,43 @@
-## Rider / JetBrains
+# Rider / JetBrains
 .idea/
-*.sln.DotSettings.user
+*.sln.iml
+*.user
+*.suo
+*.pidb
+*.psess
 
-## .NET - Carpetas de compilación (MUY IMPORTANTE)
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build artifacts
 bin/
 obj/
+*.dll
+*.exe
+*.pdb
+*.log
 
-## Archivos de Sistema
+# Packages
+packages/
+*.nupkg
+
+# User secrets
+secrets.json
+appsettings.Development.json   # Si contiene credenciales reales
+appsettings.Production.json    # Si contiene credenciales reales
+# ¡Mantén appsettings.json con placeholders!
+
+# Entity Framework migrations lock file
+*.lock.json
+
+# Test results
+TestResults/
+
+# OS generated files
 .DS_Store
 Thumbs.db
-
-## User-specific files
-*.user
-*.userosscache
-*.sln.docstate
