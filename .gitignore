@@ -17,6 +17,8 @@
 # .NET build artifacts
 bin/
 obj/
+**/bin/
+**/obj/
 *.dll
 *.exe
 *.pdb
